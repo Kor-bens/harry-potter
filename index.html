@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>H-P</title>
+</head>
+<body>
+    
+<div class="menu">
+<ul>
+    <li><a id="film">Film</a></li>
+    <!-- <li><a id="livre">Livre</a></li> -->
+    <li><a id="poudlard">Poudlard</a></li>
+    <li><a  id="personnage">Personnage</a></li>
+    <li><a id="quiz">Quiz</a></li>
+
+</ul>
+</div>
+
+
+<div id="quiz-container" >
+    <div class="container">
+        <p id="question"></p>
+        
+        <ul id="reponse"></ul>
+        <p class="afficheScore">Score : <span id="score">0</span>/8</p>
+    </div>
+    <div id="quiz-container-finish">
+            <p id="p-quiz-finish"></p>
+            <button type="button" id="bouton" title="bouton"></button>
+       
+    </div>
+</div>
+
+
+<div class="containPersonnage"></div>
+<div class="containFilm"></div>
+<!-- <div class="containLivre"></div> -->
+
+<!-- <div id="containerStars">
+    <div id="lightning"></div>
+  </div> -->
+
+
+<!-- <audio src="audio/harryPotter.mp3" ></audio> -->
+
+
+<!-- <div id="mouse"></div> -->
+<script src="movie.js"></script>
+<script src="poudlard.js"></script>
+<script id="characters" src="characters.js"></script>
+<script  src="quiz.js"></script>
+</body>
+</html>

@@ -93,7 +93,7 @@ body{
         margin-right: 50px;
         padding: 20px;
         border-radius: 10px;
-        background-color: rgb(75, 75, 64, 0.4);
+        background-color: rgba(225, 225, 12, 0.4);
         font-size: 1.2em;
     }
     
@@ -121,6 +121,7 @@ body{
     .afficheScore{
         display: flex;
         justify-content: center;
+        background-color: rgba(225, 225, 12, 0.703);
         border: 1px solid grey;
         border-radius: 5px;
         width: 100px;
